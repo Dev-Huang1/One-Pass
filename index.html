@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Air Pass</title>
+    <style>
+        .faq-answer {
+            display: none;
+        }
+        .faq-question.active + .faq-answer {
+            display: block;
+        }
+    </style>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
@@ -48,6 +56,15 @@
         </div>
     </div>
 
+    <script>
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                button.classList.toggle('active');
+                const faqAnswer = button.nextElementSibling;
+                faqAnswer.style.display = faqAnswer.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
     <script src="script.js"></script>
 </body>
 </html>

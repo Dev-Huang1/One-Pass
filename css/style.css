@@ -1,21 +1,21 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-color: #e6f0ff;
+    background-color: #f0f4f8;
 }
 
 .container {
     background-color: #ffffff;
-    padding: 30px;
+    padding: 40px;
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 350px;
+    width: 400px;
     border: 1px solid #0066FF;
 }
 
@@ -23,6 +23,7 @@ h1 {
     color: #0066FF;
     margin-bottom: 20px;
     font-size: 24px;
+    font-weight: 600;
 }
 
 label {
@@ -35,6 +36,7 @@ label {
 input[type="range"] {
     width: 100%;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .options {
@@ -58,6 +60,7 @@ button {
     cursor: pointer;
     font-size: 16px;
     width: 100%;
+    font-weight: 600;
 }
 
 button:hover {
@@ -77,15 +80,17 @@ button:hover {
     border-radius: 6px;
     margin-top: 10px;
     font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
 }
 
 .faq-container {
-    width: 350px;
+    width: 400px;
     margin-top: 30px;
     background-color: white;
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     border: 1px solid #0066FF;
 }
 
@@ -94,6 +99,7 @@ button:hover {
     text-align: center;
     margin-bottom: 20px;
     font-size: 20px;
+    font-weight: 600;
 }
 
 .faq-item {
@@ -110,6 +116,7 @@ button:hover {
     border-radius: 6px;
     cursor: pointer;
     font-size: 16px;
+    font-weight: 600;
 }
 
 .faq-question:hover {

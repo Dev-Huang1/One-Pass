@@ -102,10 +102,6 @@ button:hover {
     transition: background-color 0.3s;
 }
 
-.faq-question:hover {
-    background-color: #cce5ff;
-}
-
 .faq-answer {
     padding: 1rem;
     background-color: #f8f9fa;

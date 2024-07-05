@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Air Pass</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Air Pass</h1>
+        <h1>Password Generator</h1>
         <label for="lengthRange">Password Length: <span id="lengthValue">12</span></label>
         <input type="range" id="lengthRange" min="4" max="32" value="12" oninput="updateLengthValue(this.value)">
         
@@ -26,6 +26,28 @@
         </div>
     </div>
     
+    <div class="faq-container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <button class="faq-question">What is a password generator?</button>
+            <div class="faq-answer">
+                <p>A password generator is a tool that creates a random and secure password based on specified criteria.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Why should I use a password generator?</button>
+            <div class="faq-answer">
+                <p>Using a password generator ensures that your passwords are strong and difficult to guess, enhancing your online security.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">How does this password generator work?</button>
+            <div class="faq-answer">
+                <p>This password generator allows you to specify the length and types of characters to include, and then generates a random password accordingly.</p>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,135 +1,112 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    line-height: 1.6;
     margin: 0;
-    background-color: #f0f4f8;
+    padding: 0;
 }
 
 .container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
     background-color: #ffffff;
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 400px;
-    border: 1px solid #0066FF;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 102, 255, 0.1);
 }
 
 h1 {
     color: #0066FF;
-    margin-bottom: 20px;
-    font-size: 24px;
-    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5rem;
 }
 
 label {
     display: block;
-    margin-bottom: 10px;
-    font-size: 16px;
-    color: #333;
+    margin-bottom: 0.5rem;
+    color: #0066FF;
 }
 
 input[type="range"] {
     width: 100%;
-    margin-bottom: 20px;
-    cursor: pointer;
+    margin-bottom: 1rem;
 }
 
 .options {
-    margin-bottom: 20px;
-    text-align: left;
+    margin-bottom: 1rem;
 }
 
 .options label {
     display: block;
-    margin-bottom: 10px;
-    font-size: 14px;
+    margin-bottom: 0.5rem;
     color: #333;
 }
 
 button {
-    padding: 12px 20px;
-    background-color: #0066FF;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
+    display: block;
     width: 100%;
-    font-weight: 600;
+    padding: 0.75rem;
+    background-color: #0066FF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #0051cc;
+    background-color: #0052cc;
 }
 
 .output {
-    margin-top: 20px;
-    text-align: left;
+    margin-top: 1rem;
 }
 
 #passwordOutput {
     width: 100%;
-    padding: 12px;
-    text-align: center;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    margin-top: 10px;
-    font-size: 16px;
-    color: #333;
-    background-color: #f9f9f9;
+    padding: 0.5rem;
+    border: 2px solid #0066FF;
+    border-radius: 5px;
+    font-size: 1rem;
 }
 
 .faq-container {
-    width: 400px;
-    margin-top: 30px;
-    background-color: white;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    border: 1px solid #0066FF;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 102, 255, 0.1);
 }
 
 .faq-container h2 {
     color: #0066FF;
     text-align: center;
-    margin-bottom: 20px;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.faq-item {
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
 }
 
 .faq-question {
     width: 100%;
     text-align: left;
-    background-color: #0066FF;
-    color: white;
+    padding: 1rem;
+    background-color: #e6f2ff;
     border: none;
-    padding: 12px;
-    border-radius: 6px;
+    border-radius: 5px;
+    font-size: 1rem;
     cursor: pointer;
-    font-size: 16px;
-    font-weight: 600;
+    margin-bottom: 0.5rem;
+    transition: background-color 0.3s;
 }
 
 .faq-question:hover {
-    background-color: #0051cc;
+    background-color: #cce5ff;
 }
 
 .faq-answer {
-    display: none;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    margin-top: 10px;
-    background-color: #f9f9f9;
-    font-size: 14px;
-    color: #333;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin-bottom: 1rem;
 }

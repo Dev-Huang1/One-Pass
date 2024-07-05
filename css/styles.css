@@ -68,7 +68,7 @@ button:hover {
 
 #passwordOutput {
     width: 100%;
-    padding: 0.5rem;
+    padding: 0.75rem;
     border: 2px solid #0066FF;
     border-radius: 5px;
     font-size: 1rem;

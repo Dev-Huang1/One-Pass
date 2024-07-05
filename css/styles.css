@@ -28,8 +28,14 @@ label {
     color: #0066FF;
 }
 
-input[type="range"] {
+input[type="range"],
+button,
+#passwordOutput {
     width: 100%;
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+input[type="range"] {
     margin-bottom: 1rem;
     padding: 20px;
 }
@@ -46,7 +52,6 @@ input[type="range"] {
 
 button {
     display: block;
-    width: 100%;
     padding: 0.75rem;
     background-color: #0066FF;
     color: #ffffff;
@@ -66,7 +71,6 @@ button:hover {
 }
 
 #passwordOutput {
-    width: 100%;
     padding: 20px;
     border: 2px solid #0066FF;
     border-radius: 5px;
@@ -99,6 +103,10 @@ button:hover {
     cursor: pointer;
     margin-bottom: 0.5rem;
     transition: background-color 0.3s;
+}
+
+.faq-question:hover {
+    background-color: #0052cc;
 }
 
 .faq-answer {

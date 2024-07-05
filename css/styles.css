@@ -96,7 +96,7 @@ button:hover {
     width: 100%;
     text-align: left;
     padding: 1rem;
-    background-color: #e6f2ff;
+    background-color: #0066ff;
     border: none;
     border-radius: 5px;
     font-size: 1rem;
@@ -118,10 +118,6 @@ button:hover {
 
 .faq-question.active::after {
     transform: translateY(-50%) rotate(45deg);
-}
-
-.faq-question:hover {
-    background-color: #cce5ff;
 }
 
 .faq-answer {

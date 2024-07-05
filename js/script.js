@@ -41,3 +41,12 @@ document.querySelectorAll('.faq-question').forEach(button => {
         }
     });
 });
+
+// 添加 FAQ 功能
+document.querySelectorAll('.faq-question').forEach(question => {
+    question.addEventListener('click', () => {
+        const answer = question.nextElementSibling;
+        question.classList.toggle('active');
+        answer.classList.toggle('active');
+    });
+});

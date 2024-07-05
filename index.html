@@ -57,20 +57,22 @@
     </div>
 
     <script>
-        document.querySelectorAll('.faq-question').forEach(button => {
-            button.addEventListener('click', () => {
-                // 切换 active 类名
-                button.classList.toggle('active');
-                
-                // 获取相邻的 faq-answer 元素
-                const faqAnswer = button.nextElementSibling;
-                
-                // 切换显示状态
-                if (faqAnswer.style.display === 'block') {
-                    faqAnswer.style.display = 'none';
-                } else {
-                    faqAnswer.style.display = 'block';
-                }
+        document.addEventListener('DOMContentLoaded', (event) => {
+            document.querySelectorAll('.faq-question').forEach(button => {
+                button.addEventListener('click', () => {
+                    // 切换 active 类名
+                    button.classList.toggle('active');
+                    
+                    // 获取相邻的 faq-answer 元素
+                    const faqAnswer = button.nextElementSibling;
+                    
+                    // 切换显示状态
+                    if (faqAnswer.style.display === 'block') {
+                        faqAnswer.style.display = 'none';
+                    } else {
+                        faqAnswer.style.display = 'block';
+                    }
+                });
             });
         });
     </script>

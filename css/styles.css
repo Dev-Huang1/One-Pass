@@ -131,5 +131,5 @@ button:hover {
 
 .faq-answer.active {
     padding: 1rem;
-    max-height: 1000px;
+    max-height: 250px;
 }

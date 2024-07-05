@@ -4,14 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Air Pass</title>
-    <style>
-        .faq-answer {
-            display: none;
-        }
-        .faq-question.active + .faq-answer {
-            display: block;
-        }
-    </style>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
@@ -35,7 +27,7 @@
     </div>
     
     <div class="faq-container">
-        <h2>Frequently Asked Questions</h2>
+        <h2>FAQ</h2>
         <div class="faq-item">
             <button class="faq-question">What is a password generator?</button>
             <div class="faq-answer">
@@ -55,27 +47,6 @@
             </div>
         </div>
     </div>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-            document.querySelectorAll('.faq-question').forEach(button => {
-                button.addEventListener('click', () => {
-                    // 切换 active 类名
-                    button.classList.toggle('active');
-                    
-                    // 获取相邻的 faq-answer 元素
-                    const faqAnswer = button.nextElementSibling;
-                    
-                    // 切换显示状态
-                    if (faqAnswer.style.display === 'block') {
-                        faqAnswer.style.display = 'none';
-                    } else {
-                        faqAnswer.style.display = 'block';
-                    }
-                });
-            });
-        });
-    </script>
     <script src="/js/script.js"></script>
 </body>
 </html>

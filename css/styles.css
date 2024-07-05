@@ -120,7 +120,7 @@ button:hover {
     transform: translateY(-50%) rotate(45deg);
 }
 
-.faq-question.hover {
+.faq-question:hover {
     background-color: #0066ff;
 }
 
@@ -135,5 +135,5 @@ button:hover {
 
 .faq-answer.active {
     padding: 1rem;
-    max-height: 250px;
+    max-height: 1000px; 
 }

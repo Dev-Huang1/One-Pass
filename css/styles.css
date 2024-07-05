@@ -31,8 +31,6 @@ label {
 input[type="range"] {
     width: 100%;
     margin-bottom: 1rem;
-    padding: 0.75rem;
-    border-radius: 5px;
 }
 
 .options {
@@ -68,7 +66,7 @@ button:hover {
 
 #passwordOutput {
     width: 100%;
-    padding: 0.75rem;
+    padding: 5px;
     border: 2px solid #0066FF;
     border-radius: 5px;
     font-size: 1rem;

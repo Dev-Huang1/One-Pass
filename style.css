@@ -1,9 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
 }
@@ -15,9 +14,22 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 300px;
+    margin-top: 50px;
+    border: 2px solid #0066FF;
 }
 
 h1 {
+    margin-bottom: 20px;
+    color: #0066FF;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="range"] {
+    width: 100%;
     margin-bottom: 20px;
 }
 
@@ -33,11 +45,12 @@ h1 {
 
 button {
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #0066FF;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 button:hover {
@@ -54,4 +67,44 @@ button:hover {
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+
+.faq-container {
+    width: 300px;
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #0066FF;
+}
+
+.faq-container h2 {
+    color: #0066FF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq-question {
+    width: 100%;
+    text-align: left;
+    background-color: #0066FF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #f9f9f9;
 }

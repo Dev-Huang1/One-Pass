@@ -11,7 +11,7 @@ function generatePassword() {
     let characters = '';
     const letters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     const numbers = '0123456789';
-    const symbols = ';,:/_@*#\ˇ-';
+    const symbols = ';,:/_@*#';
 
     if (includeLetters) characters += letters;
     if (includeNumbers) characters += numbers;
@@ -30,3 +30,14 @@ function generatePassword() {
 
     document.getElementById('passwordOutput').value = password;
 }
+
+document.querySelectorAll('.faq-question').forEach(button => {
+    button.addEventListener('click', () => {
+        const answer = button.nextElementSibling;
+        if (answer.style.display === 'block') {
+            answer.style.display = 'none';
+        } else {
+            answer.style.display = 'block';
+        }
+    });
+});

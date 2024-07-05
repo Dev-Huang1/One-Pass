@@ -96,22 +96,44 @@ button:hover {
     width: 100%;
     text-align: left;
     padding: 1rem;
-    background-color: #0066ff;
+    background-color: #e6f2ff;
     border: none;
     border-radius: 5px;
     font-size: 1rem;
     cursor: pointer;
     margin-bottom: 0.5rem;
     transition: background-color 0.3s;
+    position: relative;
+}
+
+.faq-question::after {
+    content: '+';
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    transition: transform 0.3s;
+}
+
+.faq-question.active::after {
+    transform: translateY(-50%) rotate(45deg);
 }
 
 .faq-question:hover {
-    background-color: #0052cc;
+    background-color: #cce5ff;
 }
 
 .faq-answer {
-    padding: 1rem;
+    padding: 0 1rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
     background-color: #f8f9fa;
-    border-radius: 5px;
-    margin-bottom: 1rem;
+    border-radius: 0 0 5px 5px;
+}
+
+.faq-answer.active {
+    padding: 1rem;
+    max-height: 1000px;
 }

@@ -31,6 +31,7 @@ label {
 input[type="range"] {
     width: 100%;
     margin-bottom: 1rem;
+    padding: 0.75rem;
 }
 
 .options {
@@ -91,7 +92,7 @@ button:hover {
     width: 100%;
     text-align: left;
     padding: 1rem;
-    background-color: #e6f2ff;
+    background-color: #0066ff;
     border: none;
     border-radius: 5px;
     font-size: 1rem;

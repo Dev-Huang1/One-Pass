@@ -127,6 +127,7 @@ button:hover {
 .faq-answer {
     padding: 0 1rem;
     max-height: 0;
+    display: none;
     overflow: hidden;
     transition: max-height 0.3s ease-out, padding 0.3s ease-out;
     background-color: #f8f9fa;

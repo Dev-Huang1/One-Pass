@@ -2,6 +2,9 @@
 
 # One Pass
 
+![GitHub stars](https://img.shields.io/github/stars/Dev-Huang1/One-Pass.svg)
+
+![License](https://img.shields.io/github/license/Dev-Huang1/One-Pass.svg)
 
 ✌ __A very secure password generator website built with JavaScript+HTML. Developers, governments, hackers, and companies don't know your password. Use end-to-end encryption.__
 

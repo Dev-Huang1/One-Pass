@@ -1,6 +1,6 @@
-![Air Pass Banner](Air_20240709_230536_0000.png)
+![Air Pass Banner](assets/images/banner.png)
 
-# Air-Pass
+# One Pass
 
 ![GitHub stars](https://img.shields.io/github/stars/Dev-Huang1/Air-Pass.svg?style=for-the-badge)
 
